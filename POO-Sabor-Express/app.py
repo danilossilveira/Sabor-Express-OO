@@ -10,8 +10,12 @@ class Restaurante:
         return f' Nome: {self.nome}\n Categoria: {self.categoria}\n Estado: {self.ativo}\n'
 
     def listar_restaurante():
+        print('Nome'.ljust(20),'|Categoria'.ljust(22),'|Ativo')
         for restaurante in Restaurante.restaurantes:
-            print(f'{restaurante.nome} | {restaurante.categoria} | {restaurante.ativo}')
+            print(f'{restaurante.nome.ljust(20)} | {restaurante.categoria.ljust(20)} | {restaurante.ativo}')
+
+    
+
 
 restaurante_1 = Restaurante('Rafa Sushi', 'Sushi')
 restaurante_2 = Restaurante('Alemão', 'Pizzaria')
