@@ -6,3 +6,6 @@ class Comida(Cardapio):
 
     def __str__(self):
         return (f' Nome: {self._nome}\n Preço: {self._preco}\n Descrição: {self.descricao}\n')      
+    
+    def aplicar_desconto(self):
+        return super().aplicar_desconto()

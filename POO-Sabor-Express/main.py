@@ -8,6 +8,7 @@ restaurante_2 = Restaurante('Alemão', 'Pizzaria')
 restaurante_3 = Restaurante('MD Lanches', 'Xis')
 
 coca_cola = Bebida('Coca-Cola', 12, 'Grande')
+coca_cola.aplicar_desconto()
 alaminuta = Comida('Alaminuta', 25, 'A melhor alaminuta de POA')
 churrasco = Comida('Churrasco',33,'Picanha e linguiça')
 fanta_laranja = Bebida('Fanta laranja', 10, 'Grande')
